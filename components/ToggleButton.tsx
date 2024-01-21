@@ -5,7 +5,7 @@ import { ComponentProps } from "react";
 const ToggleButton: React.FC<ComponentProps<"img">> = ({ className }) => {
   return (
     <Image
-      src="menu.svg"
+      src="/hilink-travel_app/menu.svg"
       alt="menu"
       width={32}
       height={32}

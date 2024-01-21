@@ -14,7 +14,7 @@ const Features = () => {
       <div className="max-container flex padding-container relative w-full justify-end">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
-            src="/phone.png"
+            src="/hilink-travel_app/phone.png"
             alt="phone"
             width={440}
             height={1000}
@@ -25,7 +25,7 @@ const Features = () => {
           <div className="relative">
             <Image
               alt="camp"
-              src="/camp.svg"
+              src="/hilink-travel_app/camp.svg"
               width={50}
               height={50}
               className="absolute left-[-5px] top-[-28px] w-10 lg:w-[50px]"

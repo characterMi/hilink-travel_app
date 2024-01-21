@@ -26,14 +26,14 @@ const Navbar = () => {
         <Button
           title="LOGIN"
           type="button"
-          icon="/user.svg"
+          icon="/hilink-travel_app/user.svg"
           variant="btn_dark_green"
         />
       </div>
 
-      <ToggleButton className="inline-block cursor-pointer lg:hidden z-50" />
+      <ToggleButton className="inline-block cursor-pointer lg:hidden z-50 fixed right-5" />
 
-      <ul className="flex flex-col xs-menu duration-200 bg-black p-10 absolute top-20 rounded-bl-3xl rounded-tl-3xl translate-x-[100%] right-0 gap-12 lg:hidden after:content-[''] after:h-[50px] after:w-[50px] after:absolute after:bg-transparent after:top-[-50px] after:rounded-br-[100vh] after:shadow-[10px_10px_0_10px_black] after:right-0 before:content-[''] before:h-[50px] before:w-[50px] before:absolute before:bg-transparent before:bottom-[-50px] before:rounded-tr-[100vh] before:shadow-[10px_-10px_0_10px_black] before:right-0">
+      <ul className="flex flex-col xs-menu duration-200 bg-black p-10 fixed top-20 rounded-bl-3xl rounded-tl-3xl translate-x-[100%] right-0 gap-12 lg:hidden after:content-[''] after:h-[50px] after:w-[50px] after:absolute after:bg-transparent after:top-[-50px] after:rounded-br-[100vh] after:shadow-[10px_10px_0_10px_black] after:right-0 before:content-[''] before:h-[50px] before:w-[50px] before:absolute before:bg-transparent before:bottom-[-50px] before:rounded-tr-[100vh] before:shadow-[10px_-10px_0_10px_black] before:right-0">
         {NAV_LINKS.map((link) => (
           <Link
             key={link.key}
@@ -47,7 +47,7 @@ const Navbar = () => {
           <Button
             title="LOGIN"
             type="button"
-            icon="/user.svg"
+            icon="/hilink-travel_app/user.svg"
             variant="btn_dark_green"
           />
         </div>

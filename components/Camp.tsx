@@ -16,7 +16,7 @@ const CampSite = ({ backgroundImage, title, subtitle, people }: CampProps) => {
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
           <div className="rounded-full p-4 bg-green-50">
-            <Image src="/folded-map.svg" alt="map" width={28} height={28} />
+            <Image src="/hilink-travel_app/folded-map.svg" alt="map" width={28} height={28} />
           </div>
           <div className="flex flex-col gap-1">
             <h4 className="bold-18 text-white">{title}</h4>
@@ -72,7 +72,7 @@ const Camp = () => {
             adventure
           </p>
           <Image
-            src="/quote.svg"
+            src="/hilink-travel_app/quote.svg"
             alt="camp-2"
             width={186}
             height={219}
