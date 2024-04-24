@@ -37,7 +37,7 @@
         <img src="https://github.com/characterMi/characterMi/raw/main/images/technologies/icons8-react-native.svg" width="46" height="46" alt="React" />
     </li>
     <li>
-        <img src="https://github.com/characterMi/characterMi/raw/main/images/technologies/icons8-nextjs.png" width="46" height="46" alt="Next.js" />
+        <img src="https://github.com/characterMi/characterMi/raw/main/images/technologies/nextjs-original.png" width="46" height="46" alt="Next.js" />
     </li>
     <li>
         <img src="https://github.com/characterMi/characterMi/raw/main/images/technologies/tailwind.svg" width="46" height="46" alt="Tailwind Css" />
